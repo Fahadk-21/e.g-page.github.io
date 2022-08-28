@@ -1,0 +1,85 @@
+    Header {
+        background-image: url(Badshahi-Mosque.jpg);
+        height: 400px;
+        background-position:center;
+        background-size: 125%;
+        background-repeat: no-repeat;
+        color: white;
+        background-color: black;
+        
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);}
+    ul {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;}
+    Header ul li {
+        display: inline-block;
+        margin: 15px 10px 0px 10px;
+    }
+    header h1 {
+        margin-left: 15px;
+    }
+    header ul li a {
+     text-decoration: none;
+     color: white;
+  
+    }
+    header ul li a:hover {
+        color:black;
+    }
+    section {
+        text-align: center;
+    }
+    section p {
+        margin: auto 15px;
+    }
+    section h2 {
+        color: rgb(75, 75, 75);
+    }
+    footer {
+        background: rgb(255, 255, 255);
+        padding: 20px;
+        font-family: 'Roboto', sans-serif;;
+        display: flex;
+        flex-direction: row;
+    }
+    footer figure {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin:auto;
+    }
+      
+    footer figure img {
+        border: 1px solid white;
+        border-radius: 50%;
+        box-shadow: gray 0 0 10px;
+        width: 150px;
+        height:150px; 
+        margin:20px}
+   
+        @media screen  and (max-width: 610px){
+            footer figure {
+                display: flex;
+                flex-direction: column;}}
+        @media screen and (max-width:610px){
+            Header ul li {
+                font-size: 20px;
+            }}
+        @media screen and (max-width: 610px){
+            h1 {
+                font-size: 30px;
+            }
+        }
+        @media screen and (max-width:500px){
+            header {
+                height: 300px;
+            }
+        }
